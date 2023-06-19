@@ -1,0 +1,17 @@
+pandas
+fastapi
+scikit-learn
+python-dotenv
+selenium
+pydantic
+nltk
+beautifulsoup4
+datefinder
+p_tqdm
+mangum
+requests
+my-fake-useragent
+urllib3<2
+uvicorn
+boto3
+openai
