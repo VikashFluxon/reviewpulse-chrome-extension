@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup_style.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="rating-container">
+            <div class="logo-product">
+                <div><img src="images/AmazonLogo.png"></div>
+                <div id="product-name" class="product-name">Looking for product URL</div>
+            </div>
+
+            <div class="current-rating-container">
+                <div id="current-rating-text" class="current-rating-text">Current Rating</div>
+                <div id="current-rating" class="current-rating">
+                    <i data-star="0"></i>
+                </div>
+            </div>
+            <div class="true-rating-container">
+                <div id="true-rating-text" class="true-rating-text">Loading True Rating...</div>
+                <div id="true-rating" class="true-rating">
+                    <i data-star="0"></i>
+                </div>
+                <div style="align-items: left;">
+                    <ul id="summary" class="rating-summary"></ul>
+                </div>
+                <!-- <div><button id="find-out-button" class="reveal-button"  style="display:none">FIND OUT</button></div> -->
+            </div>
+
+        </div>
+        <div class="footer">
+            <div>Powered By</div>
+            <div><img src="images/Fluxon.png"></div>
+        </div>
+    </div>
+
+    <script src="./popup_script.js"></script>
+</body>
+
+</html>
